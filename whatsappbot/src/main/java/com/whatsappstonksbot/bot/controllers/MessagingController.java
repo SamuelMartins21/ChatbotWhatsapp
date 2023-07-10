@@ -6,7 +6,9 @@ import java.util.Set;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class MessagingController {
     private final Set<String> repeatCallers = Collections.synchronizedSet(new HashSet<>());
 
@@ -15,8 +17,8 @@ public class MessagingController {
                         @RequestParam("Body") String symbol) {
 
       if (repeatCallers.add(fromNumber)){
-           return "Welcome to stonksbot \uD83D\uDCC8. Text me a valid ticker symbol and I'll give you quote data.";
+           return "Bem-vindo ao Stonksbot \uD83D\uDCC8. Envie-me um símbolo de ticker válido e eu lhe fornecerei dados de cotação.";
        }
-       return "We've heard from you.";
+       return "Nós ouvimos você";
    }
 }
