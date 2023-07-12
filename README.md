@@ -13,6 +13,18 @@
 
 ## Funcionalidades⚙️
 
+1. Ao enviar uma mensagem pela primeira vez para o bot, você receberá uma mensagem de boas-vindas.
+
+![Teste 1](https://github.com/SamuelMartins21/ChatbotWhatsapp/assets/122890386/b0e43f3c-b67f-4b0e-98f2-3a72a894023b)
+
+2. Ao enviar uma mensagem pela segunda vez, o bot irá verificar se é um símbolo de cotação válido.
+
+![Teste 2](https://github.com/SamuelMartins21/ChatbotWhatsapp/assets/122890386/369851a6-a928-4ad1-baf6-aa557ca77660)
+
+3. Se você digitar uma mensagem que não corresponda a uma cotação válida ou se essa cotação não estiver disponível, uma mensagem de erro será retornada.
+
+![Teste 3](https://github.com/SamuelMartins21/ChatbotWhatsapp/assets/122890386/27f248ee-5187-4716-b414-bf6b113a024c)
+
 ## Como executar o projeto ▶️
 
 Siga as instruções abaixo para executar o projeto em seu ambiente local:
