@@ -42,5 +42,8 @@ Siga as instruções abaixo para executar o projeto em seu ambiente local:
 
 - A definição de variáveis de ambiente pode ser realizada de diferentes formas. Você pode consultar o seguinte link para obter informações sobre como definir variáveis de ambiente: [Como definir variáveis de ambiente](https://www.twilio.com/blog/how-to-set-environment-variables.html)
 
+8. Siga a instrução do site para iniciar uma conversa com o chat
+
+![imagem_2023-07-12_140253684](https://github.com/SamuelMartins21/ControleDeGastos/assets/122890386/efc9533b-b7e9-4774-b368-feab8d942e28)
 
 Tudo configurado corretamente e já está pronto para uso
